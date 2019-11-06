@@ -1,0 +1,22 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "dependencies": {
+    "apollo-server": "^2.9.7",
+    "graphql": "^14.5.8",
+    "typescript": "^3.7.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.22",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.1.0"
+  },
+  "scripts": {
+    "start": "tsc && node dist/index.js",
+    "test": "node node_modules/.bin/jest"
+  },
+  "author": "Joel Saltzman <talk@joelsaltzman.com> (joelsaltzman.com)",
+  "license": "ISC"
+}
